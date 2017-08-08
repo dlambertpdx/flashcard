@@ -1,11 +1,5 @@
-$(function() {
-  $(".js-clickable").click(function() {
-    $(".initially-hidden").fadeToggle();
-    $(".initially-showing").fadeToggle();
-  });
-
-  $(".op-clickable").click(function() {
-    $(".initially-hidden").fadeToggle();
-    $(".initially-showing").fadeToggle();
+$(document).ready(function() {
+  $(".panel-success").click(function() {
+    $(this).children().slideToggle();
   });
 });
