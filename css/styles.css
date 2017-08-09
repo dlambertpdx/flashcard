@@ -20,8 +20,8 @@
 
 .panel-success .panel-heading {
   color: white;
-  background: FireBrick;
-  border: 2px solid AntiqueWhite;
+  background: DarkCyan;
+  border: 2px solid #9FBAF3;
   font-family: Raleway;
 
 }
@@ -31,5 +31,5 @@
   background: AntiqueWhite;
   color: FireBrick;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 12px;
   }
